@@ -1,0 +1,320 @@
+body, h3, h2, ul, input, a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+body{
+	font-family: 'Microsoft Yahei';
+    font-size: 14px;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+.clearfix{
+	zoom: 1;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.head{
+	height: 29px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #ddd;
+}
+
+.welcome{
+	width: 1200px;
+	height: 29px;
+	margin: 0 auto;
+}
+
+.welcome h3{
+	font: normal 12px/29px "Microsoft Yahei";
+}
+
+.login{
+	width: 236px;
+	height: 29px;
+}
+
+.login li{
+	float: left;
+	margin-left: 10px;
+	font: normal 12px/29px "Microsoft Yahei";
+}
+
+.login li a{
+	font: normal 12px/29px "Microsoft Yahei";
+	text-decoration: none;
+}
+
+.login li a:hover{
+	color: greenyellow;
+}
+
+.search_box{
+	width: 1200px;
+	height: 115px;
+	margin: 0 auto;
+}
+
+.search_box a{
+	display: block;
+	width: 150px;
+	height: 60px;
+	float: left;
+	margin: 29px 0 0 17px;
+}
+
+.search{
+	width: 616px;
+	height: 38px;
+	border: 1px solid #37ab40;
+	margin: 35px 0 0 124px;
+	background: url(../images/icons.png) 10px 10px no-repeat;
+}
+
+.search .keywords{
+	width: 480px;
+	height: 38px;
+	border: 0;
+	margin-left: 36px;
+	outline: none;
+}
+
+.search .submit{
+	width: 100px;
+	height: 38px;
+	border: 0;
+	background: #37ab40;
+	color: #fff;
+	cursor: pointer;
+}
+
+.goods_car{
+	width: 200px;
+	height: 38px;
+	border: 1px solid #ddd;
+	margin-top: 35px;
+	background: url(../images/icons.png) 10px -42px no-repeat #f7f7f7;
+}
+
+.goods_car a{
+	display: block;
+	text-decoration: none;
+	margin: 0;
+}
+
+.goods_car .mycar{
+	width: 162px;
+	height: 38px;
+	/*margin-left: 57px;
+*/	font: normal 14px/38px "Microsoft Yahei";
+text-align: center;
+	color: #37ab40;
+}
+
+.goods_car .num{
+	width: 38px;
+	height: 40px;
+	background: #f80;
+	font: bold 18px/38px 'Microsft Yahei';
+	text-align: center;
+	color: #fff;
+	margin-top: -1px;
+}
+
+.main_menu_border{
+	height: 40px;
+	border-bottom: 2px solid #37ab40;
+}
+
+.main_menu_border .main_menu{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.menu_title{
+	width: 200px;
+	padding: 0 1px;
+	background: #37ab40;
+	margin-left: 
+}
+
+.menu_title h2{
+	font: normal 14px/40px 'Microsoft Yahei';
+	color: #fff;
+}
+
+.menu .index{
+	width: 49px;
+	text-align: right;
+	font: normal 14px/40px "Microsoft Yahei";
+}
+
+.menu .line{
+	width: 40px;
+	text-align: center;
+	font: normal 14px/40px "Microsoft Yahei";
+}
+
+.menu .phone, .menu .draw{
+	font: normal 14px/40px "Microsoft Yahei";
+}
+
+.menu_detail{
+	width: 1200px;
+	height: 270px;
+	margin: 0 auto;
+}
+
+.menu_list{
+	width: 198px;
+	height: 269px;
+	border: 1px solid green;
+	border-top: 0;
+}
+
+.menu_list ul li{
+	height: 44px;
+	border-bottom: 1px solid green;
+	text-align: center;
+	line-height: 44px;
+	background: url(../images/icons.png) 180px -386px no-repeat;
+}
+
+.menu_list ul li a{
+	display: block;
+	height: 44px;
+}
+
+.menu01{
+	background: url(../images/icons.png) 10px -90px no-repeat;
+}
+
+.menu02{
+	background: url(../images/icons.png) 10px -138px no-repeat;
+}
+
+.menu03{
+	background: url(../images/icons.png) 10px -188px no-repeat;
+}
+
+.menu04{
+	background: url(../images/icons.png) 10px -238px no-repeat;
+}
+
+.menu05{
+	background: url(../images/icons.png) 10px -288px no-repeat;
+}
+
+.menu06{
+	background: url(../images/icons.png) 10px -338px no-repeat;
+}
+
+
+.flash{
+	width: 760px;
+	height: 270px;
+	overflow: hidden;
+	position: relative;
+}
+
+.guide_left, .guide_right{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/icons.png) left top no-repeat;
+}
+
+.guide_left{
+	left: 10px;
+	top: 112px;
+	background-position: left -437px;
+}
+
+.guide_right{
+	right: -26px;
+	top: 112px;
+	background-position: left -487px;
+}
+
+.guide_points{
+	width: 100%;
+	height: 11px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.guide_points ul{
+	width: 138px;
+	height: 11px;
+	margin: 0 auto;
+}
+
+.guide_points ul li{
+	display: block;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	margin: 0 6px;
+	background: greenyellow;
+	cursor: pointer;
+}
+
+.guide_points .points .point1{
+	background: red;
+}
+
+.url_img{
+	width: 4560px;
+	font-size: 0;
+}
+
+.ad{
+	width: 240px;
+	height: 270px;
+	background: greenyellow;
+	font-size: 0;
+}
+
+.time_fruit_border{
+	width: 1200px;
+	height: 55px;
+	background: cyan;
+	margin: 0 auto;
+}
+
+.time_fruit{
+	width: 320px;
+	height: 20px;
+	background: green;
+	margin-top: 32px;
+}
+
+.time_fruit h2{
+	float: left;
+	font: bold 16px/20px 'Microsoft Yahei';
+    color: #37ab40;
+}

@@ -1,4 +1,4 @@
-body, h3, h2, ul, input, a{
+body, h5, h3, h2, ul, input, a, img{
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -11,6 +11,20 @@ ul{
 body{
 	font-family: 'Microsoft Yahei';
     font-size: 14px;
+}
+
+.goods_name{
+	height: 60px;
+	font: normal 14px/60px 'Microsoft Yahei';
+    text-align: center;
+    color: #666;
+}
+
+.goods_pirce{
+	height: 59px;
+	font: bold 20px/50px 'Microsoft Yahei';
+    color: #c40000;
+    text-align: center;
 }
 
 .clearfix:before, .clearfix:after{
@@ -156,7 +170,7 @@ text-align: center;
 }
 
 .menu_title{
-	width: 200px;
+	width: 198px;
 	padding: 0 1px;
 	background: #37ab40;
 	margin-left: 
@@ -299,22 +313,107 @@ text-align: center;
 	font-size: 0;
 }
 
-.time_fruit_border{
+.time_fruit_menu, .fine_seafood_menu{
 	width: 1200px;
 	height: 55px;
-	background: cyan;
 	margin: 0 auto;
+	border-bottom: 2px solid #37ab40;
 }
 
-.time_fruit{
+.time_fruit, .fine_seafood{
 	width: 320px;
 	height: 20px;
-	background: green;
 	margin-top: 32px;
 }
 
-.time_fruit h2{
+.time_fruit h2, .fine_seafood h2{
 	float: left;
 	font: bold 16px/20px 'Microsoft Yahei';
+	/*margin-right: 21px;*/
     color: #37ab40;
+}
+
+.time_fruit ul li, .fine_seafood ul li{
+	float: left;
+	margin-left: 21px;
+}
+
+.time_fruit_more, .fine_seafood_more{
+	width: 67px;
+	height: 20px;
+	margin-top: 32px;
+}
+
+.time_goods, .fine_seafood_goods{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.time_goods_img, .fine_seafood_goods_img{
+	width: 200px;
+	height: 300px;
+}
+
+.time_goods_list, .fine_seafood_goods_list{
+	width: 1000px;
+	height: 299px;
+	border-bottom: 1px solid #ddd;
+}
+
+.time_goods ul li, .fine_seafood_goods ul li{
+	float: left;
+	width: 249px;
+	height: 299px;
+	border-right: 1px solid #ddd;
+}
+
+.time_goods ul li a, .fine_seafood_goods ul li a{
+	margin: 0 34.5px;
+}
+
+.border_bottom{
+	height: 30px;
+	border-bottom: 2px solid #37ab40;
+}
+
+.footer{
+	height: 73px;
+	margin: 43px 0;
+}
+
+.footer_info{
+	width: 426px;
+	height: 73px;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
+
+.aboutme{
+	width: 332px;
+	margin: 0 auto;
+}
+
+.footer_info ul li{
+	float: left;
+}
+
+.footer_info ul li span{
+	margin: 0 16px;
+}
+
+.footer_info p{
+	font: normal 13px/13px "Microsoft Yahei";
+	/*display: inline-block;*/
+}
+
+.CopyRight{
+	display: block;
+	height: 13px;
+	margin: 21 0;
+}
+
+.tel{
+	width: 227px;
+	margin: 0 auto;
 }

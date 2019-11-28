@@ -1,5 +1,5 @@
 $(function () {
-    var $menu_detail = $('.menu_detail');
+    var $flash = $('.flash');
     var $element = $('.url_img a');
     var li_len = $element.length;
     var $points_ul = $('.points');
@@ -28,13 +28,16 @@ $(function () {
         move();
     }
 
+    // 定时器
+    timer = setInterval(automove, 2000);
+    
     // 当鼠标移入的时候清除定时器
-    $menu_detail.mouseenter(function () {
+    $flash.mouseenter(function () {
         clearInterval(timer);
     })
 
     // 当鼠标移出的时候启动定时器
-    $menu_detail.mouseleave(function () {
+    $flash.mouseleave(function () {
         timer = setInterval(automove, 2000);
     })
 
